@@ -1,0 +1,104 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom */
+/*body{text-align: center;
+}*/
+body{
+    margin: 0px auto;padding: 0px 32px;max-width: 90%;background-color:aquamarine ;
+}
+
+
+.clearfix::before,.clearfix::after{
+content:"";display:table;
+}
+.clearfix::after{
+clear:both;
+}
+
+/*header*/
+header{padding: 40px;background-color: aquamarine;
+}
+h1{color: black;text-align: center;font-size: xx-large;
+}
+.logo{width: 25px;height: 25px;border-radius: 20px;float: left;position: fixed;}
+
+.head{float: right;display: inline-block;margin:5px ;}
+/*main*/
+h2{margin: 5px 0px;font-size: larger}
+
+.first{background-color: wheat;padding: 30px;}
+.af{font-size: medium;padding: 5% ;}
+p{width: 50%;}
+.afi{width:50%;height: auto;margin-top: 10px;}
+
+
+h3{font-size: x-large;text-align: center;margin: 5px 0px;padding: 10px;}
+.as1{margin: 0px 10px;width: 50%;height:200px ;}
+.second{background-color: yellow;padding: 30px;}
+.box1{margin: 1% ;width: 47.5%;height: 400px;display: inline-block;}
+.box2{margin: 1% ;width: 47.5%;height: 400px;display: inline-block;}
+
+
+ 
+
+
+
+/*footer*/
+footer{padding: 40px;background-color: aquamarine;
+}
+h5{color: black;text-align: center;
+}
+.top{width: 25px;height: 25px;border-radius: 20px;position: sticky;float: right;right: 1px;bottom: 5px;}
+.top1{width: 25px;height: 25px;border-radius: 20px;float: right;}
+
+
+
+
+

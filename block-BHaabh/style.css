@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom */
+/*body{text-align: center;
+}*/
+body{
+    margin: 0px auto;padding: 0px 32px;max-width: 90%;
+}
+
+.clearfix::before,.clearfix::after{
+content:"";display:table;
+}
+.clearfix::after{
+clear:both;
+}
+
+/*header*/
+header{padding: 40px;background-color: rgba(32, 74, 153, 0.877);
+}
+h4{color: black;float: left;
+}
+.nav{float: right;display: inline-block;color: white;font-size: small;margin: 0px 2px;
+}
+
+/*main*/
+h1{color: white;text-align: center;font-size: xx-large;margin: 10px;
+}
+p{color: rgb(179, 174, 174);font-size: small;
+}
+.center{text-align: center;color: rgb(179, 174, 174);font-size: small;
+}
+.first{background-color: rgba(32, 74, 153, 0.877);padding-top: 30px;padding-bottom: 70px;
+}
+.third{background-color: rgba(32, 74, 153, 0.877);padding-top: 30px;
+}
+.third1{padding: 20px;margin: 1%;}
+.intro{width: auto; ;margin-top: 1% ; border: solid white 1px;display: inline-block;height: 250px;margin-bottom: 2%;margin-left: 125px;
+}
+h6{margin: 10px;color: white;text-align: center;
+}
+.pc{margin: 10px;color: rgb(179, 174, 174);text-align: center;
+}
+.second{background-color: white;padding: 70px;
+}
+.learn{width: 30.33%;height: auto;margin: 1%;display:inline-block;
+}
+h5{font-size: large;margin: 10px 0px;
+}
+.fourth{background-color: white;
+}
+.more{display: inline-block;width:32% ;height: auto;margin: 1% 8%;}
+.more1{width: 95%;height: 170px;
+}
+
+.border{border-bottom: 1px solid rgb(179, 174, 174) ;
+}
+/*footer*/
+footer{padding: 40px;background-color: white;
+}
+.h5{font-size: small;float: left;margin: 1%;color: rgb(179, 174, 174) ;}
+.foot{float: right;font-size: small;margin: 1%;color:  rgb(179, 174, 174);}
+.small{width: 30px;height: 30px;border-radius: 20px;margin: 5px;}
+
+/*Common*/
+
+.button{background-color: rgba(32, 74, 153, 0.877);margin: 10px 0px;width:fit-content;padding: 10px;font-size: small;color: white;
+}
+.white{color:white ;text-align: center;font-size: x-large;margin: 10px;
+}
+.blue{color: rgba(32, 74, 153, 0.877);text-align: center;margin: 10px;font-size: x-large;
+}
+.center{text-align: center;color: rgb(179, 174, 174);margin-bottom: 10px ;
+}
+.people{width: 125px;height: 125px;border-radius: 120px;margin: 20px;
+}
+
+
+
+
+
